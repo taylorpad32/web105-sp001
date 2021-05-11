@@ -1,0 +1,36 @@
+:root {
+    --background-light: #e0d7e0;
+    --background-dark: indigo;
+    --text: black;
+    --accent: #ffbf00;
+    --text-light: rgb(202, 202, 180);
+    --accent-dark:#1e3a1e;
+    --text-on-primary: #fffff;
+    --text-on-secondary: #00000;
+}
+h2{
+    color: black;
+    font-family: serif;
+    font-size: large;
+}
+body{
+    background-color: var(--text-light);
+}
+
+main{
+    background-color:var(--text-light);
+}
+
+
+footer{
+    background-color:var(--text-light);
+}
+
+img{
+    width: 30%;
+    float:left;
+}
+
+a{
+    background-color:var(--accent);
+}
