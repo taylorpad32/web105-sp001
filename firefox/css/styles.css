@@ -1,0 +1,54 @@
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1060px;
+    min-width: 500px;
+    margin: 10px auto;
+    background-color: ivory;
+    padding: 15px;
+    border-radius: 3%;
+}
+
+nav{
+    text-align: center;
+}
+img{
+    width:30%;
+    display:block;
+    margin: 20px auto;
+    
+}
+
+#london1{
+    width: 50%;
+
+}
+#moscow1{
+    width: 50%;
+}
+
+ul{
+    color: cadetblue;
+    
+}
+/************************ Text ***************************/
+h1{
+    text-align: center;
+    color: darkgreen;
+}
+
+a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: purple;
+}
+p{
+    color: brown;
+}
+a:hover{
+    text-decoration: underline;
+}
