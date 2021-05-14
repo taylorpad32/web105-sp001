@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <article id="combinators">
+            <h2>Combinators</h2>
+            <p>Combinators are special, combined CSS tags that help
+                you to specify exactly the element that you want to
+                target for your styles.
+            </p>
+            <hr>
+            <div id="descendant">
+                <h3>Descendant</h3>
+                <p class="directions">Using CSS in your external
+                    style sheet, change the h4 and h5 elements inside of
+                    the div with the id "descendant" to be red and bold.
+                </p>
+                <h4>H4</h4>
+                <H5>H5</H5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div id="child">
+                <h3>Child</h3>
+                <p class="directions">
+                    In your external CSS, make the h5 child of the id "child" white with an orange background.
+                </p>
+
+                <h4>H4</h4>
+                <H5>H5</H5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div id="sibling">
+                <h3>Sibling</h3>
+                <p class="directions">
+                    In your external CSS, in the "sibling" div, make the h4 sibling of h3 green and italic.
+                </p>
+                <h4>H4</h4>
+                <H5>H5</H5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </article>
+        <article id="pseudo-class">
+            <h2>Pseudo-class</h2>
+            <hr>
+            <p class="directions">
+                Style the links below by adding a class of "buttons" and using the normal, hover, and visited states.
+            </p>
+            <ul>
+                <li><a href="#" class = "buttons">Link 1</a></li>
+                <li><a href="#" class = "buttons">Link 2</a></li>
+                <li><a href="#" class = "buttons">Link 3</a></li>
+                <li><a href="#" class = "buttons">Zelda!</a></li>
+            </ul>
+        </article>
+        <article id="pseudo-element">
+            <h2>Pseudo-element</h2>
+            <hr>
+            <h3>First Character and First Line</h3>
+            <p class="directions">
+                Add a paragraph, give it an id, and use the first letter OR first line element to style it.
+                Change the background color and font type.
+            </p>
+            <p id = "winston-churchill">
+                Success consists of<br>
+                going from failure to failure<br>
+                without loss of enthusiasm.
+
+            </p>
+            <h3>before and after</h3>
+            <p class="directions" id = "holly">A long time ago in a galaxy far, far away....texts were written that declared "before" and "after"
+            </p>
+        </article>
+        <article id="opacity">
+            <h2>Opacity</h2>
+            <hr>
+            <p>
+                <directions>Using a descendant selector, set all the images
+                    in the "opacity" article to .5, then have them change to
+                    full opacity on mouse over.
+                </directions>
+            </p>
+            <img src="http://placekitten.com/g/200/200" alt="kitten">
+            <img src="http://placekitten.com/g/200/200" alt="kitten">
+            <img src="http://placekitten.com/g/200/200" alt="kitten">
+        </article>
+        <article id="navigation">
+            <h2>Navigation Bar</h2>
+            <hr>
+            <p class="directions">Convert the list below to
+                either a horizontal or vertical navigation bar.
+                Color choices are up to you.
+            </p>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </article>
+        <article id="image-gallery">
+            <h2>Image Gallery</h2>
+            <hr>
+            <p class="directions">Create a Responsive CSS image Gallery from
+                the images below
+            </p>
+            <img src="https://placedog.net/200" alt="dog">
+            <img src="https://placedog.net/200" alt="dog">
+            <img src="https://placedog.net/200" alt="dog">
+        </article>
+
+    </div>
+</body>
+
+</html>
