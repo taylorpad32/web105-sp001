@@ -1,0 +1,82 @@
+body{
+    background: black;
+    color: ivory;
+    font-size: large;
+    font-family: arial, helvetica, sans-serif;
+    line-height:1.5;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    min-height: 150px;
+}
+h1,h2,h3{
+    font-family: serif;
+    color: gold;
+}
+
+img{
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+    padding: 15px;
+    background-color: #bfa897
+}
+
+nav{
+    text-align:center;
+}
+
+nav a{
+    color:#bfa897;
+}
+
+#hockey{
+    color: blue;
+}
+#snowboarding{
+    color: green;
+}
+#travel{
+    color: purple;
+}
+#history{
+    color: gold;
+}
+#space{
+    color: orange;
+}
+
+/* on page buttons */
+
+#local{
+    text-align: center;
+    line-height: 3;
+
+}
+
+#local a{
+    background-color: orange;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 2px solid orange;
+    border-radius: 15px
+    margin-left: 10px;
+  
+}
+#local a:hover{
+    color: orange;
+    background: black;
+
+}
+
+.top-link{
+    color: orange;
+    
+}
