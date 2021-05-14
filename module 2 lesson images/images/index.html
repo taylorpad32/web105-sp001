@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+  
+    body {
+        background-image: url('paris.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div {
+        min-height: 150px;
+        width: 80%;
+        border: 3px solid gold;
+        margin: 10px auto;
+        color: ivory;
+        background-color: rgba(0,0,0, .7);
+        overflow: auto;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    h1, 
+    h2
+      {
+        font-weight: bold;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h1>Images</h1>
+    </div>
+    <div style="background-image:url('bergen.jpg');">
+        <h2>background-image</h2>
+    </div>
+    <div>
+        <h3>Float Left</h3>
+        <img src="lucerne.jpg" alt="Lucerne" style="float: left;">
+        <p>This is my float left, of the city of Lucerne, Switzerland</p>
+    </div>
+    <div>
+        <h3>Float Right</h3>
+        <img src="positano.jpg" alt="Positano" style="float: right;">
+        <p>This is my float right, of the town of Positano, Italy</p>
+    </div>
+    <div>
+        <a href="https://www.nhl.com/"><img src="edinburgh-castle.jpg" alt="edinburgh"></a>
+    </div>
+    <div>
+        <h2>External image source</h2>
+        <img src="https://www-league.nhlstatic.com/images/logos/league-dark/133-flat.svg" alt="NHL">
+        
+    </div>
+    <div></div>
+</body>
+</html>
